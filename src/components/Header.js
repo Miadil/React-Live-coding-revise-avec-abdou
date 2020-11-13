@@ -6,21 +6,18 @@ import './Header.css'
 class Header extends React.Component {
 	
 	render(){
-		console.log('this : ',this.props)
+		// console.log('this : ',this.props)
 		return (<header className="header-header">
 			<img src={logo} className="header-logo" alt="logo" />
 			<p>
 				j'ai {this.props.age} ans mon status {this.props.status}
 			</p>
-
 		</header>
 		)
 	}
 }
 
 // const Header = ({age, status}) => {
-// 	// console.log(props)
-// 	// const {age, status} = props
 //   return (
 // 		<header className="header-header">
 // 			<img src={logo} className="header-logo" alt="logo" />
